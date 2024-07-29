@@ -1,0 +1,80 @@
+/* home */
+.custom-heading {
+    position: relative;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+
+.custom-heading p {
+    position: absolute;
+    bottom: 100px;
+    /* to position the paragraph 20px from the bottom of the img*/
+    left: 50%;
+    /* to position the paragraph 50% from the left of the img*/
+    transform: translateX(-50%);
+    /* to centre paragraph horizontally */
+    margin: 0;
+}
+
+.home-heading {
+    background-image: url('https://t3.ftcdn.net/jpg/02/05/87/60/360_F_205876015_hYYs7ugqoU8QAobSS3TbnGQ92qyS5gEc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* about */
+.custom-heading h1 {
+    color: #ffffff;
+    /* white */
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-size: 100px;
+    margin: 0;
+}
+
+.about-content p,
+.contact-info,
+.opening-hours {
+    color: #ffffff;
+    /* white */
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+.about-content h2 {
+    color: #ffffff;
+    /* white */
+    font-family: "Times New Roman", serif;
+    font-size: 24px;
+}
+
+
+
+
+.contact-info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.opening-hours {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+/* reserve */
