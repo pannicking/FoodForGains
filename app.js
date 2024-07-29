@@ -25,10 +25,10 @@ const connection = mysql.createConnection({
   // user: 'root',
   // password: '',
   // database: 'food_for_gains'
-  host: 'sql.freedb.tech',
-  user: 'freedb_pannicking',
-  password:'a6CkuNBBf2DE2z!',
-  database:'freedb_foodforgains'
+  host: 'pro.freedb.tech',
+  user: 'teamfour',
+  password:'*wauWdA985W3rA?',
+  database:'teamfourdb'
 });
 
 connection.connect((err) => {
